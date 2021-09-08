@@ -1,0 +1,49 @@
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+:root{
+    --primary-color:#4F46E5;
+    --secondary-color:#A5B4FC;
+
+
+}
+.container{
+    padding:1rem;
+    max-width:70%;
+    margin: 0px auto;
+    background-color: var(--primary-color);
+    color: white;
+    height:80vh;
+}
+.label-date{
+    text-align: center;
+    margin:1.5rem 0px;
+    display: block;
+    font-size:1.6rem;
+
+    
+}
+#birth-date{
+    display:block;
+    width:30%;
+    height: 2rem;
+    margin:1.5rem auto;
+}
+#check-palindrome{
+    display:block;
+    margin:1.5rem auto;
+    padding:0.5rem;
+    border-radius: 0.5rem;
+}
+.heading{
+    text-align: center;
+}
+#result{
+     
+    margin:2rem 0rem;
+    font-size: 2rem;
+    font-weight: bolder; 
+    text-align: center;
+}
