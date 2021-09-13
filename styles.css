@@ -1,47 +1,58 @@
-body{
-    padding: 0;
+*{
     margin: 0;
-    
+    padding: 0;
 }
 :root{
-    --primary-color:#4F46E5;
-    --secondary-color:#A5B4FC;
+    --primary-color:#9D174D;
+    --dark-gray:#1F2937;
+    --secondary-color:#EC4899;
 
 
+}
+.nav-heading{
+    padding: 1.2rem;
+    background-color: var(--primary-color);
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 2rem;
+    color:white;
+    
+}
+.main-area{
+    background-color: var(--dark-gray);
 }
 .container{
-    padding:1rem;
-    max-width:70%;
+     padding:1rem;
+    max-width:50%;
     margin: 0px auto;
-    background-color: var(--primary-color);
+    background-color: var(--dark-gray);
     color: white;
-    height:80vh;
 }
-.label-date{
-    text-align: center;
+label{
+    text-align: left;
     margin:1.5rem 0px;
     display: block;
     font-size:1.6rem;
-
-    
 }
-#birth-date{
-    display:block;
-    width:30%;
+
+ #birth-date{
+     display:block;
+    width:100%;
     height: 2rem;
     margin:1.5rem auto;
 }
 #check-palindrome{
-    display:block;
-    margin:1.5rem auto;
-    padding:0.5rem;
-    border-radius: 0.5rem;
+       display:block;
+    width:100%;
+    margin:2rem auto;
+    
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+   font-size:1.5rem;
+   font-weight: bold;
 }
-.heading{
-    text-align: center;
-}
-#result{
-     
+.output{
     margin:2rem 0rem;
     font-size: 2rem;
     font-weight: bolder; 

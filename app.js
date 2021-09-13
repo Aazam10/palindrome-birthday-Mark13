@@ -143,9 +143,10 @@ function nextPalindromeDate(date) {
 
 var dateInputRef = document.querySelector("#birth-date");
 var showBtnRef = document.querySelector("#check-palindrome");
-var resultRef = document.querySelector("#result")
+var resultRef = document.querySelector(".output")
 
 function clickHandler() {
+    hidemessage();
     var bdayStr = dateInputRef.value;
 
     if (bdayStr !== '') {
@@ -165,10 +166,15 @@ function clickHandler() {
         }
 
     }
-}
+    else{
+        resultRef.innerText="PLEASE INPUT YOUR BIRTHDATE TO CHECK FOR PALINDROME";
+    }
 
+}
+function hidemessage(){
+    resultRef.innerText="";
+}
 showBtnRef.addEventListener("click", clickHandler);
 
 
 
-// console.log(nextPalindromeDate(currdate))
