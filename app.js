@@ -167,7 +167,7 @@ function clickHandler() {
 
     }
     else{
-        resultRef.innerText="PLEASE INPUT YOUR BIRTHDATE TO CHECK FOR PALINDROME";
+        resultRef.innerText="Please input your birthdate to check for palindrome";
     }
 
 }
