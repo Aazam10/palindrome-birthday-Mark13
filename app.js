@@ -162,7 +162,7 @@ function clickHandler() {
         }
         else{
             var [noOfDays,palindromeDate] = nextPalindromeDate(birthDate);
-            resultRef.innerText=`The next palindrome date is ${palindromeDate.day}-${palindromeDate.month} -${palindromeDate.year}, you missed by ${noOfDays}`
+            resultRef.innerText=`Your Birthdate is not a palindrome.The next palindrome date is ${palindromeDate.day}-${palindromeDate.month} -${palindromeDate.year}, you missed by ${noOfDays}`
         }
 
     }
